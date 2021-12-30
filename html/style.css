@@ -1,0 +1,22 @@
+.a{
+    width: 200px;
+    height: 200px;
+    color: rgb(0, 43, 136);
+    border: 2px solid blue;
+    margin: 30px 60px;
+    padding: 20px 20px;
+    border-width: 18px;
+    border-style: double;
+    border-top-style: dashed;
+    border-bottom-color: blueviolet;
+    padding-top: 30px;
+    text-align: center;
+}
+.b{
+    background-color: rgb(27, 118, 209);
+    border: 50px double rgb(220, 38, 120);
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 5px 5px 5px 8px rgb(51, 44, 44);
+    border-image: url('https://yeudohoa.vn/wp-content/uploads/2018/08/4_WUZI.jpg') round;
+}

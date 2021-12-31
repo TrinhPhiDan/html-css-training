@@ -1,0 +1,25 @@
+.tho{
+    border: 15px solid rgb(243, 0, 0);
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    box-shadow: 10px 16px 5px 20px grey;
+}
+.tho1{
+    border: 15px solid rgb(244, 255, 26);
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    border-radius: 50px 10px 25px 100px;
+}
+.tho2{
+    border: 100px solid rgb(0, 248, 37);
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    border-image: url("https://i.bloganchoi.com/bloganchoi.com/wp-content/uploads/2020/09/anh-dai-dien-pikachu-104206377-696x696.jpg?fit=700,20000&quality=95&ssl=1")
+    200 stretch;
+}

@@ -1,0 +1,15 @@
+.ddef{
+    text-align: center;
+}
+.mot{
+    text-align: center;
+    list-style-type: disc;
+}
+.hai{
+    text-align: center;
+    list-style-type:  lower-roman;
+}
+.ba{
+    text-align: center;
+    list-style-image: url("/image/iconnho.jpg");
+}

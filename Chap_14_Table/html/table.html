@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Chap_14_Table/css/reset.css">
+    <link rel="stylesheet" href="/Chap_14_Table/css/style.css">
+    <title>Source: Chap7:form</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><lable for="ten">Tên:</lable></td>
+            <td><input type="text" id="ten"></td>
+        </tr>
+        
+        <tr>
+            <td><lable for="mat_khau">Mật khẩu:</lable></td>
+            <td><input type="password" id="mat_khau"></td>
+        </tr>
+        
+        <tr>
+            <td><lable for="thanh_pho">Thành phố:</lable></td>
+            <td>
+                <select name="thanh_pho" id="thanh_pho">
+                    <option value="hue">--chọn thành phố--</option>
+                    <option value="quang_ngai">Quãng Ngãi</option>
+                    <option value="hue">Huế</option>
+                    <option value="quang_tri">Quảng Trị</option>
+                    <option value="da_nang">Đà Nẵng</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <td><lable for="gioi_tinh">Giới tính:</lable></td>
+            <td><input type="radio" id="nam" name="gioi_tinh">
+            <lable for="nam">Nam</lable>
+            <input type="radio" id="nu" name="gioi_tinh">
+            <lable for="nu">Nữ</lable><br></td>
+        </tr>
+        
+        <tr>
+            <td><lable for="avata">Avata:</lable></td>
+            <td><input type="file" id="avata"><br></td>
+        </tr>
+        
+        <tr>
+            <td><lable for="ngon_ngu">Ngôn ngữ</lable></td>
+            <td><input type="checkbox" id="java" name="ngon_ngu">
+            <lable for="java">JAVA</lable>
+            <input type="checkbox" id="nodejs" name="ngon_ngu">
+            <lable for="nodejs">NODEJS</lable>
+            <input type="checkbox" id="php" name="ngon_ngu">
+            <lable for="php">PHP</lable></td>
+        </tr>
+        
+        <td><input type="submit" onclick="alert('Bruh, nothing here')" value="Confirm" size="3"></td>
+    </table>
+
+</body>
+</html>

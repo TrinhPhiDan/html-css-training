@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body, header{
+    background-color: grey;
+    padding: 0xp;
+    text-align: center;
+    font-size: 40px;
+    padding: auto;
+    margin: 0px;
+}
+section, .doan1 {
+    position: absolute;
+    top: 50%;
+    width: 200px;
+    float: left;
+    background-color: lightgrey;
+    font-size: 25px;
+}
+.doan2{
+    position: relative;
+}

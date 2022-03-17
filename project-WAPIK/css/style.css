@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: auto;
+}
+
+
+header {
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:rgb(242, 255, 242);
+}
+
+
+header .nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .nav .nav-left-header{
+  margin: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+header .nav .nav-left-header .logo{
+  color: rgb(48, 100, 47);
+  margin: 0px 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+header .nav .nav-left-header .help{
+  color: rgb(168, 211, 167);
+  margin: 0px 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+
+header .nav .nav-right-header{
+  margin: 0px 18px;
+  color: rgb(168, 211, 167);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+header .nav .nav-right-header .a {
+  text-decoration: none;
+}
+header .nav .nav-right-header .get-started {
+  padding: 12px;
+  background-color:rgb(97, 167, 97);
+  color: aliceblue;
+  border: 1px solid rgb(168, 211, 167);
+  border-radius: 3px;
+  text-decoration: none;
+}
+header .nav .nav-right-header .get-started:hover {
+  background-color: rgb(84, 145, 84);
+}
+header .nav .nav-right-header .start {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: white;
+  text-decoration: none;
+}
